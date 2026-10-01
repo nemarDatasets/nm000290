@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000290-blue)](https://doi.org/10.82901/nemar.nm000290)
+
 # PROTEUS BCI Bordeaux — EEG/EMG Foundation Challenge 2026, Track 02
 
 EEG recorded with a 64-channel actiCAP slim / actiCHamp system (Brain Products); 41 EEG channels are provided,
