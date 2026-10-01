@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "PROTEUS BCI Bordeaux — EEG/EMG Foundation Challenge 2026, Track 02",
+  "description": "EEG dataset from the PROTEUS brain-computer interface project in Bordeaux, released as Track 02 of the EEG/EMG Foundation Challenge 2026. It contains 41-channel EEG recordings sampled at 500 Hz from 10 participants across 14 sessions (112 runs). Participants performed three cued mental tasks (kinesthetic motor imagery, mental subtraction, word generation) with resting baselines, sham-feedback calibration runs and online runs with real feedback, using the Graz and BrainHero interfaces.",
+  "methods_description": "EEG was recorded with a 64-channel actiCAP slim / actiCHamp system (Brain Products), with 41 channels provided at 500 Hz, reference M1 and ground FpZ, stored as EDF+. Each session comprised eyes-open and eyes-closed baselines, acquisition runs with sham feedback and online runs with real feedback, using the Graz and BrainHero interfaces. Cue onsets were recorded via OpenViBE codes.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Dreyer Pauline": {},
     "Bourdil Manon": {},
@@ -11,52 +16,14 @@
     "Roy Raphaëlle": {},
     "Lotte Fabien": {}
   },
-  "funding_references": [
-    {
-      "funder_name": "PROTEUS ANR"
-    },
-    {
-      "funder_name": "ANR",
-      "award_title": "PROTEUS"
-    }
-  ],
-  "title": "PROTEUS BCI Bordeaux — EEG/EMG Foundation Challenge 2026, Track 02",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "related_identifiers": [
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000290",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/nm000290",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "sizes": [
-    "1.48 GB (113 files)"
-  ],
-  "formats": [
-    ".edf",
-    ".json",
-    ".md",
-    ".tsv"
-  ],
-  "description": "EEG recordings from 10 participants performing a brain-computer interface (BCI) protocol with three cued mental tasks: kinesthetic motor imagery of the non-dominant hand, mental subtraction, and word generation. Data were collected over 14 sessions (112 runs) in Bordeaux, including eyes-open and eyes-closed baselines, calibration runs with sham feedback, and online runs with real feedback using the Graz and BrainHero interfaces. The dataset is released as Track 02 of the EEG/EMG Foundation Challenge 2026.",
-  "methods_description": "EEG was recorded with a 64-channel actiCAP slim / actiCHamp system (Brain Products); 41 channels are provided, sampled at 500 Hz, with mastoid M1 reference and FpZ ground, stored as EDF+. Each session comprised up to 8 runs: rest baselines (eyes open/closed), calibration runs with sham feedback, and online runs with real feedback. Cue onsets for the three mental tasks were recorded as OpenViBE event codes.",
   "keywords": [
     {
       "term": "EEG"
     },
     {
-      "term": "brain-computer interface"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "motor imagery"
@@ -71,5 +38,41 @@
       "term": "neurofeedback"
     }
   ],
-  "source_hash": "2d9135a83550ea669fed994745e24d65b186a02edaaa75be4be87ca09804a9bd"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000290",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000290",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "PROTEUS ANR"
+    },
+    {
+      "funder_name": "ANR",
+      "award_title": "PROTEUS"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "1.48 GB (113 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "d2bda7106ab080b39222696bd9f9bb5b0505cbbd1efa7afe225d0da3877942eb"
 }
