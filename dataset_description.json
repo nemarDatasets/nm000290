@@ -29,5 +29,7 @@
       "Version": "0.4.0",
       "Description": "Subset of subject-sessions; relabelled subjects; canonical EDF identity fields"
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000290",
+  "Version": "1.0.0"
 }
