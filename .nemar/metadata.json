@@ -1,0 +1,75 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Dreyer Pauline": {},
+    "Bourdil Manon": {},
+    "Bechon Loic": {},
+    "Kojima Simon": {},
+    "Velut Sebastien": {},
+    "Rimbert Sebastien": {},
+    "Roy Raphaëlle": {},
+    "Lotte Fabien": {}
+  },
+  "funding_references": [
+    {
+      "funder_name": "PROTEUS ANR"
+    },
+    {
+      "funder_name": "ANR",
+      "award_title": "PROTEUS"
+    }
+  ],
+  "title": "PROTEUS BCI Bordeaux — EEG/EMG Foundation Challenge 2026, Track 02",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000290",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000290",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "sizes": [
+    "1.48 GB (113 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "EEG recordings from 10 participants performing a brain-computer interface (BCI) protocol with three cued mental tasks: kinesthetic motor imagery of the non-dominant hand, mental subtraction, and word generation. Data were collected over 14 sessions (112 runs) in Bordeaux, including eyes-open and eyes-closed baselines, calibration runs with sham feedback, and online runs with real feedback using the Graz and BrainHero interfaces. The dataset is released as Track 02 of the EEG/EMG Foundation Challenge 2026.",
+  "methods_description": "EEG was recorded with a 64-channel actiCAP slim / actiCHamp system (Brain Products); 41 channels are provided, sampled at 500 Hz, with mastoid M1 reference and FpZ ground, stored as EDF+. Each session comprised up to 8 runs: rest baselines (eyes open/closed), calibration runs with sham feedback, and online runs with real feedback. Cue onsets for the three mental tasks were recorded as OpenViBE event codes.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "mental subtraction"
+    },
+    {
+      "term": "word generation"
+    },
+    {
+      "term": "neurofeedback"
+    }
+  ],
+  "source_hash": "2d9135a83550ea669fed994745e24d65b186a02edaaa75be4be87ca09804a9bd"
+}
