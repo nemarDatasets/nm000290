@@ -1,0 +1,8 @@
+{
+  "participant_id": {
+    "Description": "Public participant label"
+  },
+  "age": {
+    "Description": "Age at time of testing, binned (years, inclusive range)"
+  }
+}

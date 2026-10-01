@@ -1,0 +1,33 @@
+{
+  "Name": "PROTEUS BCI Bordeaux — EEG/EMG Foundation Challenge 2026, Track 02",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Dreyer Pauline",
+    "Bourdil Manon",
+    "Bechon Loic",
+    "Kojima Simon",
+    "Velut Sebastien",
+    "Rimbert Sebastien",
+    "Roy Raphaëlle",
+    "Lotte Fabien"
+  ],
+  "Funding": [
+    "PROTEUS ANR"
+  ],
+  "EthicsApprovals": [
+    "Comité opérationnel d'évaluation des risques légaux et éthiques"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "PROTEUS BIDS export",
+      "Description": "Manual and MNE-BIDS conversion by the data authors"
+    },
+    {
+      "Name": "make_bids_release.py",
+      "Version": "0.4.0",
+      "Description": "Subset of subject-sessions; relabelled subjects; canonical EDF identity fields"
+    }
+  ]
+}

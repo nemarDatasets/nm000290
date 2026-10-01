@@ -1,0 +1,38 @@
+{
+  "onset": {
+    "Description": "Onset of the event from the first sample of the recording.",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Duration of the event (0 = impulse).",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "Onset in samples (first sample is 0).",
+    "Units": "samples"
+  },
+  "trial_type": {
+    "Description": "Event name.",
+    "Levels": {
+      "mi": "Cue: motor imagery (MI) trial",
+      "sub": "Cue: mental subtraction (MC) trial",
+      "word": "Cue: word generation (LW) trial",
+      "start_trial": "Trial start",
+      "fixation_cross": "Fixation cross shown",
+      "start_feedback": "Feedback period starts",
+      "end_trial": "Trial end",
+      "beep": "Auditory beep",
+      "start_experiment": "Run start",
+      "end_session": "Run end",
+      "OVTK_StimulationId_Train": "OpenViBE classifier-training trigger",
+      "OVTK_StimulationId_BaselineStart": "Baseline recording start",
+      "OVTK_StimulationId_BaselineStop": "Baseline recording end"
+    }
+  },
+  "value": {
+    "Description": "OpenViBE stimulation code (also stored as EDF+ annotations). Class cues: 33024 = mi, 33025 = sub, 33026 = word."
+  },
+  "StimulusPresentation": {
+    "SoftwareName": "OpenViBE"
+  }
+}
